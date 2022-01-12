@@ -122,3 +122,7 @@ window.addEventListener('DOMContentLoaded', () => {
 
     resetButton.addEventListener('click', resetBoard);
 });
+function sound(){
+    var newmusic = new Audio('music.wav');
+    newmusic.play();
+    }   
